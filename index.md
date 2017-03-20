@@ -33,7 +33,7 @@ var fun = function lang(l) {
 ```clojure
 ;; sample clojure
 (defn hello-world []
-  (str "hello world" x))
+  (str "hello world"))
 ```
 
 ```ruby
