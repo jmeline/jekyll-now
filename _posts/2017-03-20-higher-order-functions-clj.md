@@ -8,6 +8,7 @@ A function that takes a function as a parameter or returns a function.
 
 {% highlight clojure linenos %}
 
+(def )
 {% endhighlight %}
 
 
