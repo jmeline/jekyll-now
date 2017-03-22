@@ -38,8 +38,14 @@ end
 Clojure example:
 {% highlight clojure linenos %}
 
-(defn hello-world-example
+(defn hello-world-example [a b c]
  "This is as simple as it gets"
-  "Hello World")
+ (str "sup world")
+ (reduce + [1 2 3 4 5]))
 
 {% endhighlight %}
+
+```clj
+(defn something-weird [] "some string"
+  (reduce * [1 2 3 4 5]))
+```
