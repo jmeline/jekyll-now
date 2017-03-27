@@ -18,6 +18,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
 
 /*- Base color -*/
 
+$code-background: #2d2d2d;
 $main-color: #282828;
 $background-color: #FDFDFD;
 $text-color: #222222;
@@ -26,9 +27,9 @@ $text-color: #222222;
 
 html {
 	background-color: $background-color;
-	font-size: 16px;
+	font-size: 20px;
 	@media (min-width: 940px) {
-		font-size: 18px;
+		font-size: 20px;
 	}
 	line-height: 1.5;
 	color: $text-color;
@@ -44,4 +45,15 @@ a {
 	&:focus {
 		color: darken($main-color, 5%);
 	}
+}
+
+/*- Code/Syntax settings -*/
+.highlight {
+  overflow: auto;
+  word-wrap: normal; /* horizontal scrolling */
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 16px;
 }
