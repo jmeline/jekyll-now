@@ -10,11 +10,12 @@ author:
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
-# highlighter: rouge
-highlighter: pygments
+highlighter: rouge
+# highlighter: pygments
 kramdown:
   input: GFM
-  syntax_highlighter: pygments
+  # syntax_highlighter: pygments
+  syntax_highlighter: rouge
 
 source: .
 destination: ./_site

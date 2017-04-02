@@ -40,7 +40,9 @@ A programming language is considered to have **first-class functions** if it tre
   ;; 20
 
   ;; A function can be stored in a data structure
-  (let [f [myFunc myFunc]] )
+  (let [f [myFunc myFunc]]
+
+  )
 {% endhighlight %}
 
 A function that takes a function as a parameter or returns a function is termed **higher-order functions**. One of the most common higher-order functions is map. Lets take a look at an example in clojure:
