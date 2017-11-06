@@ -1,3 +1,3 @@
-#!/usr/local/bin/bash
+#!/bin/bash
 
 jekyll serve
